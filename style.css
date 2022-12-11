@@ -1,0 +1,118 @@
+/* Add like */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: rgb(150, 226, 226);
+    padding-top: 30px;
+    margin: 10px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container1 {
+    max-width: 200px;
+    height: 78px;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    margin: auto;
+}
+.container2 {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+#like {font-size: 24px;
+    line-height: 28px;
+    padding: 7px 20px;
+    border-radius: 6px;
+    background-color: deepskyblue;
+    border: 0.1px solid deepskyblue; 
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), -2px -2px 3px rgba(0, 0, 0, 0.2);
+    /* cursor: pointer; */
+}
+#like:hover {
+    background-color:#3498DB;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), -2px -2px 3px rgba(0, 0, 0, 0.2);
+}
+#like-count {
+    display: inline-block;
+    margin-left: 5px;
+    color:#fff;
+    cursor: pointer;
+}
+#like-count:hover {
+    color: aqua;
+}
+/* Minus likes */
+
+.container3 {
+    max-width: 200px;
+    height: 78px;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    margin: auto;
+}
+.container4 {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+#minus-like {font-size: 24px;
+    line-height: 28px;
+    padding: 7px 20px;
+    border-radius: 6px;
+    background-color: deepskyblue;
+    border: 0.1px solid deepskyblue; 
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), -2px -2px 3px rgba(0, 0, 0, 0.2);
+    /* cursor: pointer; */
+}
+#minus-like:hover {
+    background-color:#3498DB;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), -2px -2px 3px rgba(0, 0, 0, 0.2);
+}
+#minus-count {
+    display: inline-block;
+    margin-left: 5px;
+    color:#fff;
+    cursor: pointer;
+}
+#minus-count:hover {
+    color: aqua
+}
+/* Reset */
+.container5 {
+    max-width: 200px;
+    height: 78px;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    margin: auto;
+}
+.container6 {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+#reset-like {font-size: 24px;
+    line-height: 28px;
+    padding: 7px 20px;
+    border-radius: 6px;
+    background-color: deepskyblue;
+    border: 0.1px solid deepskyblue; 
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), -2px -2px 3px rgba(0, 0, 0, 0.2);
+    /* cursor: pointer; */
+}
+#reset-like:hover {
+    background-color:#3498DB;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), -2px -2px 3px rgba(0, 0, 0, 0.2);
+}
+#reset-count {
+    display: inline-block;
+    margin-left: 5px;
+    color:#fff;
+    cursor: pointer;
+}
+#reset-count:hover {
+    color: aqua
+}
